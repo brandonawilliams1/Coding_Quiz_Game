@@ -6,3 +6,96 @@
   
 }
 
+body{
+  background: lightblue;
+}
+
+.start-btn, 
+.info-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* start quiz btn style */
+.start-btn button{
+  font-size: 25px;
+  font-weight: 500;
+  color: blue;
+  padding: 15px 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: white;
+
+}
+
+.info-box{
+  width: 540px;
+  background: white;
+  border-radius: 5px;
+}
+
+.info-box .info-title{
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  display: flex;
+  align-items: center;
+  padding: 0 35px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.info-box .info-list{
+  padding: 15px 35px;
+}
+
+.info-box .info-list .info{
+  margin: 5px 0;
+  font-size: 17px;
+}
+
+.info-box .info-list .info span{
+  font-weight: 600;
+  color: blue; 
+}
+
+.info-box .buttons{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 35px;
+  border-top: 1px solid lightgrey;
+
+}
+.info-box .buttons button{
+  margin: 0 5px;
+  height: 40px;
+  width: 100px;
+  border: 1px;
+  background: blue;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.buttons button.quit{
+
+
+}
+
+.buttons button.quit:hover{
+color: rgb(158, 0, 0);
+
+}
+
+.buttons button.submit{
+
+}
+
+.buttons button.submit:hover{
+color: lime;
+}
