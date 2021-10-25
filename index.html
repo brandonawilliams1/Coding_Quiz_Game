@@ -1,89 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <title>Code-O-Matic</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/131dc4071d.js" crossorigin="anonymous"></script>
+  <title>Coding Quiz Game</title>
 </head>
-
 <body>
-  <!-- start button -->
- <div class="start-btn"><button>Start Quiz</button></div>
- 
- <!-- info box -->
- <div class="info-box">
-   <div class="info-title">
-     <span>Rules</span>
-   </div>
-   <div class="info-list">
-     <div class="info">1.You will have only <span>15 seconds per each question</span> </div>
-     <div class="info">2. Once you select any option once time goes off</div>
-     <div class="info">3. You cant exit the quiz while you are playing</div>
-     <div class="info">4. You score points for each correct answer</div>
-   
-    </div>
-   <div class="buttons">
-      <button class="quit">Exit</button>
-      <button class="submit">Submit</button>
-   </div>
-  </div>
-   <!-- quiz box -->
-  <div class="quiz-box">
-    <header>
-      <div class="title">Code Quiz</div>
-      <div class="timer">
-        <div class="time-text">Time Left</div>
-         <div class="timer-sec">15</div>
-      </div>
-    </header>
-    <section>
-      <div class="que-text">
-        <span>What does HTML stand?</span>
-      </div>
-      <div class="option-list">
-        <div class="option">
-           <span>Hyper text module landing</span>
-           <div class="icon tick"><i class="fas fa-check">Y</i></div>
-        </div>
-        <div class="option">
-          <span>Hyper text mathmatical loading</span>
-          <div class="icon cross"><i class="fas fa-times">N</i></div>
-        </div>
-        <div class="option">
-          <span>Hyper tone multi language</span>
-        </div>
-        <div class="option">
-          <span>Hyper text Markup language</span>
-        </div>
-      </div>
-    </section>
-     <!--quiz box footer -->
-     <footer>
-       <div class="total-que">
-         <span><p>2</p>of<p>5</p>questions</span>
-       </div>
-       <button class="next-btn">next</button>
-     </footer>
-  </div>
-  
-  <!-- results -->
-  <div class="results-box">
-    <div class="icon">
-      <i class="fas fa-crown"></i>
-    </div>
-    <div class="complete-text">Awsome You finished!</div>
-    <div class="score-text">
-      <span>and sorry, you got only <p>2</p> out of <p>5</p></span>
-    </div>
-    <div class="buttons">
-      <button class="restart">Retry</button>
-      <button class="quit">Quit</button>
+  <div class="container">
+    <div id="home" class="flex-column flex-center">
+      <h1>Are You Ready?</h1>
+      <a href="/game.html" class="btn">Play</a>
+      <a href="/highscores.html" class="btn" id="highscore-btn">High Scores<i class="fas fa-crown"></i></a>
     </div>
   </div>
- 
-
-  <script src= "script.js"></script>
 </body>
 </html>
